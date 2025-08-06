@@ -1,0 +1,188 @@
+body {
+  margin: 20px;
+}
+
+:root {
+  --primaryColor: lightgray;
+}
+
+.q1MainDiv {
+  border: 1px solid var(--primaryColor);
+  width: 300px;
+}
+
+.q1InsideDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.submit {
+  background-color: rgb(65, 64, 64);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.q2MainDIv {
+  border: 1px solid var(--primaryColor);
+  width: 300px;
+}
+
+.q2InsideDiv {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.q2InsideDiv h2 {
+  text-align: center;
+}
+
+.login {
+  background-color: rgb(85, 85, 236);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.forgetPassword {
+  color: rgb(129, 129, 224);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.q3MainDiv {
+  width: 350px;
+  /* border: 1px solid var(--primaryColor); */
+  padding: 10px;
+}
+
+.navigationBar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationBar a {
+  list-style: none;
+}
+
+.photoGrid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.q3MainDiv h2 {
+  text-align: center;
+}
+
+.q3InsideDiv {
+  width: 100px;
+  height: 100px;
+  background-color: var(--primaryColor);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: gray;
+}
+
+.all {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.li-items {
+  padding: 10px;
+}
+
+.nature {
+  font-size: medium;
+}
+
+.birds {
+  font-size: larger;
+}
+
+.animals {
+  font-size: small;
+}
+
+.q4Div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.q4MainDiv {
+  border: 1px solid var(--primaryColor);
+  width: 300px;
+  padding: 10px 20px;
+}
+
+.monthFree {
+  border: 1px solid black;
+  padding: 10px;
+  width: 90px;
+}
+
+.q4SecondDiv {
+  color: gray;
+}
+
+.monthlyPlan {
+  background-color: rgb(244, 244, 244);
+  padding: 10px;
+}
+
+.signUp {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.signUpDiv {
+  margin-bottom: 10px;
+}
+
+.q5Div {
+  border: 5px solid green;
+  width: 300px;
+  padding: 10px;
+}
+
+.displayDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.darkFont {
+    font-weight: bold;
+}
+
+.q5Div h1 {
+    font-weight: bolder;
+}
+
+.orderPlace {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.q5Div p, h1, h4 {
+    margin: 10px;
+}
