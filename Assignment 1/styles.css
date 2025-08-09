@@ -35,6 +35,11 @@ ul {
   align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .right-nav {
   margin-left: auto;
 }
