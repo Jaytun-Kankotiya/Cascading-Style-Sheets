@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primaryColor: black;
+  --secondaryColor: gray;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sideSpace {
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
+}
+
+.navDiv {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.right-nav {
+  margin-left: auto;
+}
+
+.right-nav img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: invert(100%);
+}
+
+.subscribe {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.ghostDiv {
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.ghostDiv img {
+  width: 300px;
+}
+
+.welcomeDiv {
+  margin: 50px 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.welcomeDiv img {
+  width: 100%;
+  max-width: 750px;
+  height: 400px;
+  /* height: auto; */
+  display: block;       
+  flex-shrink: 0; 
+  border-radius: 10px;          
+}
+
+.welcomeDiv > div {
+    flex: 1 1 300px;
+    min-width: 280px;
+}
+
+.image3Div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.image3Div h4,
+.image3Div p {
+  margin: 5px;
+}
+
+.welcomeDiv p,
+.different-plans p {
+  color: var(--secondaryColor);
+}
+
+.ghost-description {
+  font-size: 20px;
+}
+
+.different-plans {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.different-plans > div {
+  flex: 1 1 320px;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.different-plans-img {
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 10px;
+} 
+
+#planTitle {
+    color: rgb(82, 82, 255);
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.different-plans h2, .mainDiv4 h2 {
+    margin-top: 5px;
+}
+
+.bottomSpace {
+    margin-top: 20px;
+}
+
+.mainDiv4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 20px;
+    gap: 35px;
+}
+
+.mainDiv4 > div {
+    flex: 1 1 485px;
+    max-width: 750px;
+    box-sizing: border-box;
+}
