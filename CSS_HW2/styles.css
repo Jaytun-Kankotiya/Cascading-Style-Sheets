@@ -1,0 +1,68 @@
+.mainDiv{
+    display: flex;
+}
+
+.q2div{
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+.q2Div2 {
+    position: relative;
+    margin-top: 30px;
+}
+
+.q2Div3 {
+    margin-top: 60px;
+}
+
+.q3MainDiv {
+    position: relative;
+    background-color: lightgrey;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+.q3Div {
+    background-color: lightpink;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.q4MainDiv {
+    border: 2px solid black;
+    display: flex;
+    width: fit-content;
+    
+}
+
+.menu {
+    background-color: lightpink;
+    padding: 5px 8px;
+}
+
+.q4div {
+    background-color: lightgray;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+}
+
+.q5MainDiv {
+    border: 2px solid black;
+    display: flex;
+    width: fit-content;
+}
+
+.q5div {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
